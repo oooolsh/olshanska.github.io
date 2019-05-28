@@ -1,0 +1,96 @@
+﻿
+body{
+	background-image:url(back.img);
+color:#959595;
+}
+a {
+
+  color: green;
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #C0C0C0; /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  border-radius: 5px;
+  margin: 0 0 10px;
+  padding: 0 5px;
+  font-size: 20px;
+  
+}
+a:hover{
+font-size: 21px;
+}
+
+.widget-list {
+  padding: 0;
+  list-style: none;
+}
+
+.widget-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 16px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  border-left: 2px solid #b99d61;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+
+.circle {
+
+  background: #C0C0C0;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  -webkit-animation: pulsing 1s infinite;
+  animation: pulsing 1s infinite;
+}.circle:hover {
+
+  background: #C0C0C0;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  -webkit-animation: pulsing 100s infinite;
+  animation: pulsing 100s infinite;
+}
+
+@-webkit-keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
